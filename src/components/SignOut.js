@@ -15,7 +15,7 @@ const SignOut = () => {
                 <button onClick={signOutAction} className={"sign-out-button"}>Sign Out</button>
             </div>
 
-            <img src={auth.currentUser.photoURL} alt={"Own user image"} className={"user-photo"} ></img>
+            <img src={auth.currentUser.photoURL} alt={"Own"} className={"user-photo"} ></img>
         </div>
     )
   }
